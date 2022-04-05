@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'meetings',
                 'display_name_singular' => __('joy-voyager-bread-meeting::seeders.data_types.meeting.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-meeting::seeders.data_types.meeting.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-meeting voyager-group',
                 'model_name'            => 'Joy\\VoyagerBreadMeeting\\Models\\Meeting',
                 // 'policy_name'           => 'Joy\\VoyagerBreadMeeting\\Policies\\MeetingPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadMeeting\\Http\\Controllers\\VoyagerBreadMeetingController',
