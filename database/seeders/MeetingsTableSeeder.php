@@ -18,7 +18,7 @@ class MeetingsTableSeeder extends Seeder
             return false;
         }
 
-        $count = 100;
+        $count = 20;
         Meeting::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {
